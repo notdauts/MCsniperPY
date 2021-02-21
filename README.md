@@ -11,5 +11,5 @@
 
 <p align="center">
 	<strong>
-		<a href="https://github.com/MCsniperPY/MCsniperPY/blob/master/README.md">Install</a>
+		<a href="https://github.com/MCsniperPY/MCsniperPY/blob/master/README.md#Installing">Install</a>
 </p>
