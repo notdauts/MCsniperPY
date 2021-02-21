@@ -2,7 +2,7 @@
 	<img
 		width="500"
 		alt="NOVUS."
-		src="https://i.imgur.com/Ut7z5px.png?sanitize=true">
+		src="https://i.imgur.com/tZ7LiVF.png?sanitize=true">
 </h1>
 
 <h3 align="center">
