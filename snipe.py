@@ -75,7 +75,7 @@ def check_resp(status):
 
 
 def resp_error(message):
-    print(f"{{Fore.GREEN}Success »{Fore.WHITE} {message}")
+    print(f"{Fore.RED}Error »{Fore.WHITE}")
 
 
 async def namemc_timing(target, block_snipe):
