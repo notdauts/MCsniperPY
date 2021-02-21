@@ -38,7 +38,7 @@ auto_link_namemc:false NOT IMPLEMENTED
 
 
 def custom_info(message):
-    logging.info(f"{Fore.WHITE}[{Fore.BLUE}info{Fore.WHITE}] {Fore.RESET}{message}")
+    logging.info(f"{Fore.CYAN}»{Fore.RESET} {message}")
 
 
 def print_title():
