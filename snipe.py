@@ -11,12 +11,12 @@ try:
     import sys
     import requests
 except ImportError:
-    print("Trying to install the required modules! THIS MAY DISPLAY LARGE ERRORS!\nPlease try to run this script again once all of the modules have been successfully installed.\n\n")
-    input("press enter to start installing... ")
+    print("Trying to install the required modules! Ignore the errors!\nPlease try to run this script again once all of the modules have been successfully installed.\n\n")
+    input("Press enter to start installing... ")
     system("py -m pip install -r requirements.txt")
     system("python -m pip install -r requirements.txt")
     system("python3 -m pip install -r requirements.txt")
-    input("\n\ndone installing modules! please restart the script now. Press enter to continue... ")
+    input("\n\nSuccefully installed modules! please restart the script now. Press enter to continue... ")
     quit()
 
 init()
@@ -43,21 +43,26 @@ def custom_info(message):
 
 def print_title():
     title = f"""
-{Fore.CYAN}┌──────────────────────────────────────────────────────────────────────────────────────┐
-{Fore.CYAN}│{Fore.RESET}  ███╗   ███╗ ██████╗███████╗███╗   ██╗██╗██████╗ ███████╗██████╗ {Fore.BLUE}██████╗ ██╗   ██╗{Fore.CYAN}   │
-{Fore.CYAN}│{Fore.RESET}  ████╗ ████║██╔════╝██╔════╝████╗  ██║██║██╔══██╗██╔════╝██╔══██╗{Fore.BLUE}██╔══██╗╚██╗ ██╔╝{Fore.CYAN}   │
-{Fore.CYAN}│{Fore.RESET}  ██╔████╔██║██║     ███████╗██╔██╗ ██║██║██████╔╝█████╗  ██████╔╝{Fore.BLUE}██████╔╝ ╚████╔╝{Fore.CYAN}    │
-│{Fore.RESET}  ██║╚██╔╝██║██║     ╚════██║██║╚██╗██║██║██╔═══╝ ██╔══╝  ██╔══██╗{Fore.BLUE}██╔═══╝   ╚██╔╝     {Fore.CYAN}│
-│{Fore.RESET}  ██║ ╚═╝ ██║╚██████╗███████║██║ ╚████║██║██║     ███████╗██║  ██║{Fore.BLUE}██║        ██║      {Fore.CYAN}│
-│{Fore.RESET}  ╚═╝     ╚═╝ ╚═════╝╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝{Fore.BLUE}╚═╝        ╚═╝      {Fore.CYAN}│
-{Fore.CYAN}└──────────────────────────────────────────────────────────────────────────────────────┘
-{Fore.GREEN}Developed by @Kqzz#0001 on Discord {Fore.BLUE}| Website: https://mcsniperpy.github.io
-{Fore.GREEN}THIS SNIPER IS 100% FREE ON GITHUB{Fore.RESET}"""
+{Fore.MAGENTA}♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+{Fore.CYAN}»{Fore.BLUE} nnnn  nnnnnnnn       ooooooooooo vvvvvvv           vvvvvvvuuuuuu    uuuuuu      ssssssssss
+{Fore.CYAN}»{Fore.BLUE} n:::nn::::::::nn   oo:::::::::::oov:::::v         v:::::v u::::u    u::::u    ss::::::::::s
+{Fore.CYAN}»{Fore.BLUE} n::::::::::::::nn o:::::::::::::::ov:::::v       v:::::v  u::::u    u::::u  ss:::::::::::::s
+{Fore.CYAN}»{Fore.BLUE} nn:::::::::::::::no:::::ooooo:::::o v:::::v     v:::::v   u::::u    u::::u  s::::::ssss:::::s
+{Fore.CYAN}»{Fore.BLUE}   n:::::nnnn:::::no::::o     o::::o  v:::::v   v:::::v    u::::u    u::::u   s:::::s  ssssss
+{Fore.CYAN}»{Fore.BLUE}   n::::n    n::::no::::o     o::::o   v:::::v v:::::v     u::::u    u::::u     s::::::s
+{Fore.CYAN}»{Fore.BLUE}   n::::n    n::::no::::o     o::::o    v:::::v:::::v      u::::u    u::::u        s::::::s
+{Fore.CYAN}»{Fore.BLUE}   n::::n    n::::no::::o     o::::o     v:::::::::v       u:::::uuuu:::::u  ssssss   s:::::s
+{Fore.CYAN}»{Fore.BLUE}   n::::n    n::::no:::::ooooo:::::o      v:::::::v        u:::::::::::::::uus:::::ssss::::::s
+{Fore.CYAN}»{Fore.BLUE}   n::::n    n::::no:::::::::::::::o       v:::::v          u:::::::::::::::us::::::::::::::s
+{Fore.CYAN}»{Fore.BLUE}   nnnnnn    nnnnnn   ooooooooooo            vvv               uuuuuuuu  uuuu  sssssssssss
+{Fore.MAGENTA}♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+{Fore.CYAN}» {Fore.BLUE}Created by dauts#3050
+{Fore.CYAN}» {Fore.BLUE}github.com/notdauts"""
     print(title)
 
 
 def custom_input(message):
-    print(f"{Fore.WHITE}[{Fore.BLUE}input{Fore.WHITE}] {Fore.RESET}", end='')
+    print(f"{Fore.GREEN}» {Fore.RESET}", end='')
     input_return = input(message)
     return input_return
 
@@ -70,7 +75,7 @@ def check_resp(status):
 
 
 def resp_error(message):
-    print(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}] {message}")
+    print(f"{{Fore.GREEN}Success »{Fore.WHITE} {message}")
 
 
 async def namemc_timing(target, block_snipe):
@@ -109,11 +114,11 @@ async def namemc_timing(target, block_snipe):
         wait_time = snipe_time - now
         wait_time = wait_time.total_seconds()
         if wait_time >= 60:
-            custom_info(f"{block_snipe_words[block_snipe].rstrip('e')}ing \"{target}\" in ~{round(wait_time / 60)} minutes | {block_snipe_words[block_snipe].rstrip('e')}ing at {snipe_time} (utc)")
+            custom_info(f"{block_snipe_words[block_snipe].rstrip('e')}ing \"{target}\" in ~{round(wait_time / 60)} min. | {block_snipe_words[block_snipe].rstrip('e')}ing at {snipe_time} (utc)")
         elif wait_time >= 3600:
-            custom_info(f"{block_snipe_words[block_snipe].rstrip('e')}ing \"{target}\" in ~{round(wait_time / 3600)} minutes | {block_snipe_words[block_snipe].rstrip('e')}ing at {snipe_time} (utc)")
+            custom_info(f"{block_snipe_words[block_snipe].rstrip('e')}ing \"{target}\" in ~{round(wait_time / 3600)} min.| {block_snipe_words[block_snipe].rstrip('e')}ing at {snipe_time} (utc)")
         else:
-            custom_info(f"{block_snipe_words[block_snipe].rstrip('e')}ing \"{target}\" in {wait_time} seconds | {block_snipe_words[block_snipe].rstrip('e')}ing at {snipe_time} (utc)")
+            custom_info(f"{block_snipe_words[block_snipe].rstrip('e')}ing \"{target}\" in {wait_time} sec. | {block_snipe_words[block_snipe].rstrip('e')}ing at {snipe_time} (utc)")
         return int(snipe_time.replace(tzinfo=timezone.utc).timestamp())
 
 
@@ -121,7 +126,7 @@ async def time_snipe(target, block_snipe):
     try:
         return await namemc_timing(target, block_snipe)
     except Exception:
-        print(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}] Failed to time snipe!")
+        print(f"{Fore.RED}Error »{Fore.WHITE} Failed to time snipe")
         time.sleep(3)
         quit()
 
@@ -202,7 +207,7 @@ class Account:
                         print(resp_json)
                     else:
                         if block_snipe == 2:
-                            custom_info(f"{self.email} is unpaid and cannot snipe names. {Fore.RED}YOU ARE SNIPING. This will fail.{Fore.RESET}")
+                            custom_info(f"{self.email} is not paid and unable to snipe. {Fore.RED}Sniping like this will fail.{Fore.RESET}")
                 self.auth = {"Authorization": "Bearer: " + resp_json["accessToken"]}
                 self.access_token = resp_json["accessToken"]
             else:
@@ -218,28 +223,28 @@ class Account:
                         ncjson = await ncE.json()
                         try:
                             if ncjson['nameChangeAllowed'] is False:
-                                logging.info(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}] {self.email} is not eligible for a name change!")
+                                logging.info(f"{Fore.RED}Error »{Fore.WHITE} {self.email} is not able to change username.")
                                 self.failed_auth = True
                             else:
-                                logging.info(f"{Fore.WHITE}[{Fore.GREEN}SUCCESS{Fore.WHITE}] Logged into {self.email} successfully!")
+                                logging.info(f"{Fore.GREEN}Success »{Fore.WHITE} Logged into {self.email}")
                         except Exception:
-                            logging.info(f"{Fore.WHITE}[{Fore.GREEN}SUCCESS{Fore.WHITE}] Logged into {self.email} successfully!")
+                            logging.info(f"{Fore.GREEN}Success »{Fore.WHITE} Logged into {self.email} successfully!")
                 else:
                     try:
                         for x in range(3):
                             answers.append({"id": resp_json[x]["answer"]["id"], "answer": self.questions[x]})
                     except IndexError:
-                        logging.info(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}]{Fore.RESET} {self.email} has security questions and you did not provide any!")
+                        logging.info(f"{Fore.RED}Error »{Fore.WHITE} {self.email} has security questions, but none were provided.")
                         self.failed_auth = True
                         return
                     async with session.post("https://api.mojang.com/user/security/location", json=answers, headers=self.auth) as r:
                         if check_resp(r.status):
-                            logging.info(f"{Fore.WHITE}[{Fore.GREEN}success{Fore.WHITE}]{Fore.GREEN} signed in to {self.email}{Fore.RESET}")
+                            logging.info(f"{Fore.GREEN}Success »{Fore.WHITE} signed in to {self.email}{Fore.RESET}")
                         else:
                             resp_error(f"security questions incorrect | {self.email}")
                             self.failed_auth = True
             else:
-                logging.info(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}]{Fore.RESET} {self.email} something went wrong with authentication for {self.email}! | {r.status}")
+                logging.info(f"{Fore.RED}Error »{Fore.WHITE} Authentication failed with the account under{self.email} {Fore.RED} STATUS {r.status}")
                 self.failed_auth = True
 
     async def snipe_req(self, session, target_username):
@@ -251,15 +256,15 @@ class Account:
                 sent_reqs += 1
                 await response.read()
                 if response.status == 204 or response.status == 200:
-                    logging.info(f"{Fore.WHITE}[{Fore.GREEN}SUCCESS{Fore.WHITE}] | Sniped {Fore.CYAN}{target_username}{Fore.WHITE} on {self.email} | {Fore.GREEN}{response.status}{Fore.WHITE} @ {Fore.CYAN}{now}{Fore.RESET}")
+                    logging.info(f"{Fore.GREEN}●{Fore.WHITE}» {Fore.BLUE} Sniped {Fore.MAGENTA}{target_username}{Fore.WHITE} via {self.email} ○ {Fore.GREEN}{response.status}{Fore.WHITE} @ {Fore.CYAN}{now}{Fore.RESET}")
                     self.got_name = True
                     if config.change_skin:
                         await self.authenticate(session, 1, 1)
                     asyncio.get_event_loop().stop()
                 else:
-                    logging.info(f"{Fore.WHITE}[{Fore.RED}fail{Fore.WHITE}] {Fore.RED} {response.status} {Fore.WHITE}@{Fore.CYAN} {now}{Fore.RESET}")
+                    logging.info(f"{Fore.RED}●{Fore.WHITE}» {Fore.BLUE}{response.status} {Fore.WHITE}@{Fore.CYAN} {now}{Fore.RESET}")
         except AttributeError as e:
-            print(f'{Fore.WHITE}[{Fore.RED}error{Fore.WHITE}]{Fore.RESET} {self.email} failed authentication and cannot snipe! | {e}')
+            print(f'{Fore.RED}●{Fore.WHITE}»{Fore.RESET} Account {self.email} could not authenticate! {e}')
 
     def webhook_skin_write_file(self, block_snipe):
         time.sleep(1)
@@ -271,7 +276,7 @@ class Account:
                 files = [('file', open(str(config.skin), 'rb'))]
                 with session.post(f"https://api.minecraftservices.com/minecraft/profile/skins", headers=self.auth, data=payload, files=files) as r:
                     if r.status_code == 204 or r.status_code == 200:
-                        logging.info(f"{Fore.WHITE}[{Fore.GREEN}success{Fore.WHITE}]{Fore.RESET} changed skin of {self.email}")
+                        logging.info(f"{Fore.GREEN}Success »{Fore.WHITE} Changed skin model for {self.email}")
                     else:
                         logging.info(f"{Fore.WHITE}[{Fore.RED}FAIL{Fore.WHITE}]{Fore.RESET} Failed to change skin {self.email} | {str(r.status_code)}")
                         logging.info(r.json())
@@ -279,51 +284,51 @@ class Account:
                 custom_info(f"not changing skin | {self.email}")
             for hook in config.webhooks:
                 searches = requests.get(f"https://api.nathan.cx/searches/{target_username}").json()["searches"]
-                with session.post(hook, json={"embeds": [{"title": "New Snipe 🎉", "description": f"Sniped `{target_username}` with {searches} searches using [MCsniperPY](https://github.com/Kqzz/MCsniperPY)!", "color": 65395}]}) as r:
+                with session.post(hook, json={"embeds": [{"title": "Snipe Completed", "description": f"Sniped `{target_username}` with {searches} searches using Novus", "color": 65395}]}) as r:
                     if r.status_code == 200 or r.status_code == 204:
-                        logging.info(f"{Fore.WHITE}[{Fore.GREEN}success{Fore.WHITE}]{Fore.RESET} sent webhook of snipe!")
+                        logging.info(f"{Fore.GREEN}Success »{Fore.WHITE} Webhook was sent successfully")
                     else:
                         logging.info(r.status_code_code)
                         logging.info(r.json())
             if len(config.webhooks) == 0:
-                custom_info("No discord webhooks detected | paste a webhook into config.txt with \"wh:\" before it")
+                custom_info("No webhooks were detected. Please put a webhook into the config.txt with \"wh:\" before it")
             try:
                 with session.post("https://announcements-api.herokuapp.com/api/v1/announce", json={"name": target_username.strip()}, headers={"Authorization": config.custom_announce}) as r:
                     if r.status_code == 204:
-                        logging.info(f"{Fore.WHITE}[{Fore.GREEN}success{Fore.WHITE}]{Fore.RESET} sent custom announcement of snipe!")
+                        logging.info(f"{Fore.GREEN}Success »{Fore.WHITE} sent custom announcement of snipe!")
                     else:
                         logging.info(f"{Fore.RED} {r.status_code} | Failed to send custom announcement!{Fore.RESET}")
                         print(r.json())
             except AttributeError as e:
-                custom_info(f"No custom announcement detected | {e}")
-                custom_info("type >generate in #bot-commands in the discord to announce your snipes")
+                custom_info(f"Unable to announce snipe {e}")
+                custom_info("Discord webhook is unavalbile")
 
 
 def gather_info():
     block_snipe = 0
-    target_username = custom_input(f"What name would you like to {['snipe', 'block'][block_snipe]}: ")
+    target_username = custom_input(f"{['Snipe Account', 'Block Account'][block_snipe]}: ")
     try:
-        delay = int(custom_input("Custom delay in ms: "))
+        delay = int(custom_input("Delay: "))
     except ValueError:
-        print('thats not a valid number')
+        print('Invalid Number')
     return block_snipe, target_username, delay
 
 
 def load_accounts_file():
     accounts = []
     if not path.exists("accounts.txt"):
-        print(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}]{Fore.RESET} accounts.txt not found | creating one")
+        print(f"{Fore.RED}Setup »{Fore.WHITE} Could not fine accounts.txt | Creating file...")
         open('accounts.txt', 'w+')
-        input("Press enter to reload accounts. ")
+        input("Press enter to reload accounts.txt ")
         load_accounts_file()
     else:
         accounts = open('accounts.txt').readlines()
         if len(accounts) == 0:
-            print(f"Accounts not found in accounts.txt file please add accounts with format (email:pass) or (email:pass:q1:q2:q3)")
-            input("Press any key to reload accounts.")
+            print(f"{Fore.RED}Setup »{Fore.WHITE} Please add account details to the accounts.txt file! Format: (email:pass) or (email:pass:q1:q2:q3)")
+            input("Press any key to reload the accounts file")
             load_accounts_file()
         if len(accounts) > config.max_accs:
-            print(f"{Fore.WHITE}[{Fore.YELLOW}warning{Fore.WHITE}]{Fore.RESET} you inputted too many accounts | removing {len(accounts) - config.max_accs}")
+            print(f"{Fore.YELLOW}Warn {Fore.CYAN}»{Fore.WHITE} You have too many accounts! Removing {len(accounts) - config.max_accs}...")
             accounts = accounts[0:30]
     return accounts
 
@@ -354,7 +359,7 @@ class session:
         try:
             self.setup_time = self.drop_time - 55
         except Exception:
-            resp_error(f"Cannot snipe name {target_username}")
+            resp_error(f"{Fore.RED}Error »{Fore.WHITE}Unable to snipe {target_username}")
             time.sleep(2)
             quit()
         self.setup = False
@@ -379,7 +384,7 @@ class session:
                         acc.webhook_skin_write_file(self.block_snipe)
                 rq_sec = sent_reqs / elapsed_time
                 times.append(rq_sec)
-                logging.info(f"{Fore.GREEN}{str(sum(times))[0:13]}{Fore.CYAN} rqs/sec (ESTIMATE) {Fore.WHITE}|{Fore.CYAN} Took {Fore.WHITE}{str(elapsed_time)[0:8]}{Fore.CYAN} seconds{Fore.RESET} | {sent_reqs} requests")
+                logging.info(f"{Fore.BLUE}Results {Fore.CYAN}»{Fore.WHITE} {str(sum(times))[0:13]}{Fore.CYAN} rqs/sec (ESTIMATE) {Fore.WHITE}|{Fore.CYAN} Took {Fore.WHITE}{str(elapsed_time)[0:8]}{Fore.CYAN} seconds{Fore.RESET} | {sent_reqs} requests")
                 try:
                     if len(sys.argv) < 3:
                         custom_input("press enter to quit: ")
@@ -390,12 +395,12 @@ class session:
                 loop.run_until_complete(self.run_auth())
                 for acc in accounts:
                     if acc.failed_auth:
-                        logging.info(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}] Removing account: {acc.email} | auth failed")
+                        logging.info(f"{Fore.RED}Error »{Fore.WHITE} Removing account: {acc.email} | auth failed")
                         accounts.remove(acc)
                 if len(accounts) == 0:
-                    logging.info(f"{Fore.WHITE}[{Fore.RED}ERROR{Fore.WHITE}] you have 0 accounts available to snipe on! | quitting program...")
+                    logging.info(f"{Fore.RED}Error »{Fore.WHITE} You don't have any working accounts. stopping program...")
                     quit()
-                custom_info("setup complete")
+                custom_info("{Fore.GREEN}Success »{Fore.WHITE}Setup finished")
                 self.setup = True
             time.sleep(.00001)
 
