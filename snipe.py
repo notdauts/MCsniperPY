@@ -56,7 +56,7 @@ def print_title():
 {Fore.CYAN}»{Fore.BLUE}   n::::n    n::::no:::::::::::::::o       v:::::v          u:::::::::::::::us::::::::::::::s
 {Fore.CYAN}»{Fore.BLUE}   nnnnnn    nnnnnn   ooooooooooo            vvv               uuuuuuuu  uuuu  sssssssssss
 {Fore.MAGENTA}♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
-{Fore.CYAN}» {Fore.BLUE}Created by dauts#3050
+{Fore.CYAN}» {Fore.BLUE}MCSniperPY Fork
 {Fore.CYAN}» {Fore.BLUE}github.com/notdauts"""
     print(title)
 
