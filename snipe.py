@@ -234,7 +234,7 @@ class Account:
                         for x in range(3):
                             answers.append({"id": resp_json[x]["answer"]["id"], "answer": self.questions[x]})
                     except IndexError:
-                        logging.info(f"{Fore.RED}Error »{Fore.WHITE} {self.email} has security questions, but none were provided.")
+                        logging.info(f"{Fore.RED}Error »{Fore.WHITE} {self.email} has security questions, and none were provided.")
                         self.failed_auth = True
                         return
                     async with session.post("https://api.mojang.com/user/security/location", json=answers, headers=self.auth) as r:
