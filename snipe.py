@@ -400,7 +400,7 @@ class session:
                 if len(accounts) == 0:
                     logging.info(f"{Fore.RED}Error »{Fore.WHITE} You don't have any working accounts. stopping program...")
                     quit()
-                custom_info("{Fore.GREEN}Success »{Fore.WHITE}Setup finished")
+                custom_info("Setup completed successfully")
                 self.setup = True
             time.sleep(.00001)
 
