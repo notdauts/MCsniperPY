@@ -57,7 +57,7 @@ def print_title():
 {Fore.CYAN}»{Fore.BLUE}   nnnnnn    nnnnnn   ooooooooooo            vvv               uuuuuuuu  uuuu  sssssssssss
 {Fore.MAGENTA}♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
 {Fore.CYAN}» {Fore.BLUE}MCSniperPY Fork
-{Fore.CYAN}» {Fore.BLUE}github.com/notdauts"""
+{Fore.CYAN}» {Fore.BLUE}github.com/damdau"""
     print(title)
 
 
